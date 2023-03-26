@@ -1,0 +1,111 @@
+.postCreatorSection {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    line-height: 0px;
+    align-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.imageContainer {
+    width: 50px;
+}
+
+.creatorImg {
+    width: 100%;
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+
+.postBody {
+    background: #242526;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+@media screen and (max-width:620px) {
+    .postBody {
+        margin: 0;
+    }
+}
+
+.postViewText {
+    color: white;
+    margin: 20px
+}
+
+p.time {
+    font-size: 10px;
+}
+
+.postHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.reactionsTab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 5px 37px;
+}
+
+.postInteractions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.reactionText,
+.reactionBtn {
+    color: white;
+}
+
+.moreBtn {
+    color: white;
+    font-size: 27;
+}
+
+.postText {
+    color: white;
+    padding: 10px;
+}
+
+.postContent {
+
+    border-radius: 10px;
+}
+
+.actionContainer {
+    position: relative;
+}
+
+.postOptionContainer {
+    position: absolute;
+    background: #5c5a5a;
+    color: white;
+    right: 0;
+    border-radius: 10px;
+    top: 30px;
+}
+
+.postOption {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.postOption:hover {
+    background: #7a7979;
+    overflow: hidden;
+    border-radius: 10px;
+}
